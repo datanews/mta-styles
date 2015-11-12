@@ -1,0 +1,341 @@
+/**
+ * MTA Styles
+ * The colors of the MTA in a easy to include library.
+ * https://github.com/datanews/mta-styles
+ * 
+ * Version: 0.0.1
+ */
+/* Variables: mta-mode-line */
+/* General styling */
+.mta {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: bold;
+}
+/* Background colors: mta mta-mode-line */
+.mta.subway-a {
+  background-color: #0039A6;
+}
+.mta.subway-c {
+  background-color: #0039A6;
+}
+.mta.subway-e {
+  background-color: #0039A6;
+}
+.mta.subway-b {
+  background-color: #FF6319;
+}
+.mta.subway-d {
+  background-color: #FF6319;
+}
+.mta.subway-f {
+  background-color: #FF6319;
+}
+.mta.subway-m {
+  background-color: #FF6319;
+}
+.mta.subway-g {
+  background-color: #6CBE45;
+}
+.mta.subway-j {
+  background-color: #996633;
+}
+.mta.subway-z {
+  background-color: #996633;
+}
+.mta.subway-l {
+  background-color: #A7A9AC;
+}
+.mta.subway-n {
+  background-color: #FCCC0A;
+}
+.mta.subway-q {
+  background-color: #FCCC0A;
+}
+.mta.subway-r {
+  background-color: #FCCC0A;
+}
+.mta.subway-s {
+  background-color: #808183;
+}
+.mta.subway-1 {
+  background-color: #EE352E;
+}
+.mta.subway-2 {
+  background-color: #EE352E;
+}
+.mta.subway-3 {
+  background-color: #EE352E;
+}
+.mta.subway-4 {
+  background-color: #00933C;
+}
+.mta.subway-5 {
+  background-color: #00933C;
+}
+.mta.subway-6 {
+  background-color: #00933C;
+}
+.mta.subway-7 {
+  background-color: #B933AD;
+}
+.mta.lirr-babylon {
+  background-color: #00985F;
+}
+.mta.lirr-city-terminal {
+  background-color: #4D5357;
+}
+.mta.lirr-far-rockaway {
+  background-color: #6E3219;
+}
+.mta.lirr-hempstead {
+  background-color: #CE8E00;
+}
+.mta.lirr-long-beach {
+  background-color: #FF6319;
+}
+.mta.lirr-montauk {
+  background-color: #006983;
+}
+.mta.lirr-oyster-bay {
+  background-color: #00AF3F;
+}
+.mta.lirr-port-jefferson {
+  background-color: #0039A6;
+}
+.mta.lirr-port-washington {
+  background-color: #C60C30;
+}
+.mta.lirr-ronkonkoma {
+  background-color: #A626AA;
+}
+.mta.lirr-west-hempstead {
+  background-color: #00A1DE;
+}
+.mta.metro-north-harlem {
+  background-color: #0039A6;
+}
+.mta.metro-north-hudson {
+  background-color: #009B3A;
+}
+.mta.metro-north-new-haven {
+  background-color: #E00034;
+}
+.mta.metro-north-pascack-valley {
+  background-color: #923D97;
+}
+.mta.metro-north-port-jervis {
+  background-color: #FF7900;
+}
+/* Foreground colors: mta mta-mode-line-fg */
+.mta.subway-a-fg {
+  color: #0039A6;
+}
+.mta.subway-c-fg {
+  color: #0039A6;
+}
+.mta.subway-e-fg {
+  color: #0039A6;
+}
+.mta.subway-b-fg {
+  color: #FF6319;
+}
+.mta.subway-d-fg {
+  color: #FF6319;
+}
+.mta.subway-f-fg {
+  color: #FF6319;
+}
+.mta.subway-m-fg {
+  color: #FF6319;
+}
+.mta.subway-g-fg {
+  color: #6CBE45;
+}
+.mta.subway-j-fg {
+  color: #996633;
+}
+.mta.subway-z-fg {
+  color: #996633;
+}
+.mta.subway-l-fg {
+  color: #A7A9AC;
+}
+.mta.subway-n-fg {
+  color: #FCCC0A;
+}
+.mta.subway-q-fg {
+  color: #FCCC0A;
+}
+.mta.subway-r-fg {
+  color: #FCCC0A;
+}
+.mta.subway-s-fg {
+  color: #808183;
+}
+.mta.subway-1-fg {
+  color: #EE352E;
+}
+.mta.subway-2-fg {
+  color: #EE352E;
+}
+.mta.subway-3-fg {
+  color: #EE352E;
+}
+.mta.subway-4-fg {
+  color: #00933C;
+}
+.mta.subway-5-fg {
+  color: #00933C;
+}
+.mta.subway-6-fg {
+  color: #00933C;
+}
+.mta.subway-7-fg {
+  color: #B933AD;
+}
+.mta.lirr-babylon-fg {
+  color: #00985F;
+}
+.mta.lirr-city-terminal-fg {
+  color: #4D5357;
+}
+.mta.lirr-far-rockaway-fg {
+  color: #6E3219;
+}
+.mta.lirr-hempstead-fg {
+  color: #CE8E00;
+}
+.mta.lirr-long-beach-fg {
+  color: #FF6319;
+}
+.mta.lirr-montauk-fg {
+  color: #006983;
+}
+.mta.lirr-oyster-bay-fg {
+  color: #00AF3F;
+}
+.mta.lirr-port-jefferson-fg {
+  color: #0039A6;
+}
+.mta.lirr-port-washington-fg {
+  color: #C60C30;
+}
+.mta.lirr-ronkonkoma-fg {
+  color: #A626AA;
+}
+.mta.lirr-west-hempstead-fg {
+  color: #00A1DE;
+}
+.mta.metro-north-harlem-fg {
+  color: #0039A6;
+}
+.mta.metro-north-hudson-fg {
+  color: #009B3A;
+}
+.mta.metro-north-new-haven-fg {
+  color: #E00034;
+}
+.mta.metro-north-pascack-valley-fg {
+  color: #923D97;
+}
+.mta.metro-north-port-jervis-fg {
+  color: #FF7900;
+}
+/* Symbols: mta mta-symbol mta-mode-line-fg */
+.mta.mta-symbol {
+  display: inline-block;
+  border-radius: 50%;
+  width: 1em;
+  height: 1em;
+  color: #FFFFFF;
+  position: relative;
+  vertical-align: bottom;
+  font-style: normal;
+}
+.mta.mta-symbol:after {
+  position: relative;
+  display: block;
+  text-align: center;
+  width: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 0.65em;
+}
+.mta.mta-symbol.subway-a:after {
+  content: "A";
+}
+.mta.mta-symbol.subway-c:after {
+  content: "C";
+}
+.mta.mta-symbol.subway-e:after {
+  content: "E";
+}
+.mta.mta-symbol.subway-b:after {
+  content: "B";
+}
+.mta.mta-symbol.subway-d:after {
+  content: "D";
+}
+.mta.mta-symbol.subway-f:after {
+  content: "F";
+}
+.mta.mta-symbol.subway-m:after {
+  content: "M";
+}
+.mta.mta-symbol.subway-g:after {
+  content: "G";
+}
+.mta.mta-symbol.subway-j:after {
+  content: "J";
+}
+.mta.mta-symbol.subway-z:after {
+  content: "Z";
+}
+.mta.mta-symbol.subway-l:after {
+  content: "L";
+}
+.mta.mta-symbol.subway-n:after {
+  content: "N";
+}
+.mta.mta-symbol.subway-n {
+  color: #000000;
+}
+.mta.mta-symbol.subway-q:after {
+  content: "Q";
+}
+.mta.mta-symbol.subway-q {
+  color: #000000;
+}
+.mta.mta-symbol.subway-r:after {
+  content: "R";
+}
+.mta.mta-symbol.subway-r {
+  color: #000000;
+}
+.mta.mta-symbol.subway-s:after {
+  content: "S";
+}
+.mta.mta-symbol.subway-1:after {
+  content: "1";
+}
+.mta.mta-symbol.subway-2:after {
+  content: "2";
+}
+.mta.mta-symbol.subway-3:after {
+  content: "3";
+}
+.mta.mta-symbol.subway-4:after {
+  content: "4";
+}
+.mta.mta-symbol.subway-5:after {
+  content: "5";
+}
+.mta.mta-symbol.subway-6:after {
+  content: "6";
+}
+.mta.mta-symbol.subway-7:after {
+  content: "7";
+}

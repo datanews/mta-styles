@@ -1,0 +1,47 @@
+/**
+ * CSS for project page
+ */
+
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.page-container {
+  max-width: 40em;
+  margin: 0 auto;
+}
+
+a {
+  color: #E51133;
+  text-decoration: none;
+}
+
+header h2 {
+  font-size: 1.25em;
+  color: #676767;
+  margin-bottom: 2em;
+}
+
+section {
+  margin-bottom: 1em;
+}
+
+footer {
+  font-size: 0.85em;
+  padding-top: 5em;
+  text-align: right;
+}
+
+.example-bg {
+  width: 100%;
+  font-size: 0.85em;
+  height: 5em;
+  margin-bottom: 1.5em;
+  padding: 1em;
+  color: #FFFFFF;
+}
+
+.example-fg {
+  font-size: 1.25em;
+  margin-bottom: 0.85em;
+}

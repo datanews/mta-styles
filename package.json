@@ -1,0 +1,24 @@
+{
+  "name": "mta-styles",
+  "version": "0.0.1",
+  "description": "The colors of the MTA in a easy to include library.",
+  "main": "build/build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datanews/mta-styles.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/datanews/mta-styles/issues"
+  },
+  "homepage": "https://github.com/datanews/mta-styles#readme",
+  "devDependencies": {
+    "d3-dsv": "^0.1.9",
+    "less": "^2.5.3",
+    "request": "^2.65.0"
+  }
+}

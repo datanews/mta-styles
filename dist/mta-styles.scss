@@ -145,7 +145,7 @@ $mta-metro-north-port-jervis: #FF7900;
   height: 1em;
   color: #FFFFFF;
   position: relative;
-  vertical-align: bottom;
+  vertical-align: middle;
   font-style: normal;
 
   &:after {
@@ -159,6 +159,12 @@ $mta-metro-north-port-jervis: #FF7900;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     font-size: 0.65em;
+  }
+  &.mta-large {
+    font-size: 1.85em;
+  }
+  &.mta-bottom {
+    vertical-align: bottom;
   }
 
   &.subway-a:after { content: "A"; }

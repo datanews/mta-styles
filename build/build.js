@@ -109,7 +109,7 @@ function buildStyles(colors, type) {
     "  height: 1em;\n" +
     "  color: #FFFFFF;\n" +
     "  position: relative;\n" +
-    "  vertical-align: bottom;\n" +
+    "  vertical-align: middle;\n" +
     "  font-style: normal;\n" +
     "\n"+
     "  &:after {\n" +
@@ -117,12 +117,18 @@ function buildStyles(colors, type) {
     "    display: block;\n" +
     "    text-align: center;\n" +
     "    width: 100%;\n" +
-    "    top: 49%;\n" +
+    "    top: 50%;\n" +
     "    -webkit-transform: translateY(-50%);\n" +
     "    -moz-transform: translateY(-50%);\n" +
     "    -ms-transform: translateY(-50%);\n" +
     "    transform: translateY(-50%);\n" +
     "    font-size: 0.65em;\n" +
+    "  }\n" +
+    "  &.mta-large {\n" +
+    "    font-size: 1.85em;\n" +
+    "  }\n" +
+    "  &.mta-bottom {\n" +
+    "    vertical-align: bottom;\n" +
     "  }\n");
   colors.forEach(function(c) {
     c.linesIds.forEach(function(l, li) {

@@ -249,7 +249,7 @@
   height: 1em;
   color: #FFFFFF;
   position: relative;
-  vertical-align: bottom;
+  vertical-align: middle;
   font-style: normal;
 }
 .mta.mta-symbol:after {
@@ -263,6 +263,12 @@
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   font-size: 0.65em;
+}
+.mta.mta-symbol.mta-large {
+  font-size: 1.85em;
+}
+.mta.mta-symbol.mta-bottom {
+  vertical-align: bottom;
 }
 .mta.mta-symbol.subway-a:after {
   content: "A";

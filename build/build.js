@@ -124,8 +124,14 @@ function buildStyles(colors, type) {
     "    transform: translateY(-50%);\n" +
     "    font-size: 0.65em;\n" +
     "  }\n" +
-    "  &.mta-large {\n" +
+    "  &.mta-small {\n" +
+    "    font-size: 1.2em;\n" +
+    "  }\n" +
+        "  &.mta-med {\n" +
     "    font-size: 1.85em;\n" +
+    "  }\n" +
+        "  &.mta-large {\n" +
+    "    font-size: 2.85em;\n" +
     "  }\n" +
     "  &.mta-bottom {\n" +
     "    vertical-align: bottom;\n" +

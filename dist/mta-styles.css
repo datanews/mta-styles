@@ -264,8 +264,14 @@
   transform: translateY(-50%);
   font-size: 0.65em;
 }
-.mta.mta-symbol.mta-large {
+.mta.mta-symbol.mta-small {
+  font-size: 1.2em;
+}
+.mta.mta-symbol.mta-med {
   font-size: 1.85em;
+}
+.mta.mta-symbol.mta-large {
+  font-size: 2.85em;
 }
 .mta.mta-symbol.mta-bottom {
   vertical-align: bottom;

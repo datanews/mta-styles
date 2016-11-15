@@ -75,3 +75,8 @@ The JSON file describing what lines are what colors can useful for styling in di
 1. `git tag X.X.X`
 1. `git push origin master --tags`
 1. `npm publish`
+
+## Attribution
+
+* All colors from the [MTA](http://web.mta.info/developers/resources/line_colors.htm).  Though none of those are included here, the use of MTA logos, maps, and symbols requires a license.
+* Social image from [Wikipedia](https://commons.wikimedia.org/wiki/File:New_York_City_Transit_Sign_Shop_(15370608428).jpg)

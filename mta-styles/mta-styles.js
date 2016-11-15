@@ -22,7 +22,7 @@ var outputPaths = {
 };
 
 // Main build function
-function build() {
+function build(message) {
   mtaParse(function(error, colors) {
     // Check for errors
     if (error) {
@@ -42,12 +42,13 @@ function build() {
       }
 
       fs.writeFileSync(outputPaths.css, output.css);
+
+      if (message) {
+        console.log(message);
+      }
     });
   });
 }
-
-// Run build
-build();
 
 // Create LESS or SASS
 function buildStyles(colors, type) {
@@ -83,7 +84,7 @@ function buildStyles(colors, type) {
   backgrounds.push(".mta {");
   colors.forEach(function(c) {
     c.linesIds.forEach(function(l) {
-      backgrounds.push("  &." + l + " { background-color: " + varPrefix + l + "; }");
+      backgrounds.push("  &." + l + " { background-color: " + varPrefix + l + " !important; }");
     });
   });
   backgrounds.push("}");
@@ -94,7 +95,7 @@ function buildStyles(colors, type) {
   foregrounds.push(".mta {");
   colors.forEach(function(c) {
     c.linesIds.forEach(function(l) {
-      foregrounds.push("  &." + l + "-fg { color: " + varPrefix + l + "; }");
+      foregrounds.push("  &." + l + "-fg { color: " + varPrefix + l + " !important; }");
     });
   });
   foregrounds.push("}");
@@ -224,7 +225,7 @@ function translateLines(input, mode) {
   if (mode === "subway") {
     lines = input.indexOf("/") !== -1 ? input.split("/") : input.split(" ");
     lines = lines.map(Function.prototype.call, String.prototype.toLowerCase);
-    return [lines, lines.join(",")];
+    return [lines, lines.map(Function.prototype.call, String.prototype.toUpperCase).join(",")];
   }
 
   // Otherwise, make an id
@@ -255,9 +256,10 @@ function buildHeader() {
     " */\n";
 }
 
-
-// Exports in case someone wants to use this in node
+// Exports
 module.exports = {
   mtaParse: mtaParse,
-  build: build
+  build: build,
+  sourePath: path.join(__dirname, 'mta-styles.js'),
+  outputPaths: outputPaths
 };

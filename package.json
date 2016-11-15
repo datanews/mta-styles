@@ -2,9 +2,10 @@
   "name": "mta-styles",
   "version": "0.0.1",
   "description": "The colors of the MTA in a easy to include library.",
-  "main": "build/build.js",
+  "main": "mta-styles/mta-styles.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node mta-styles/build.js"
   },
   "repository": {
     "type": "git",

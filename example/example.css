@@ -4,22 +4,28 @@
 
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
 .page-container {
-  max-width: 40em;
+  max-width: 50em;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 50em)  {
+  .page-container {
+    margin: 0 10px;
+  }
 }
 
 a {
   color: #E51133;
   text-decoration: none;
-}
-
-header h2 {
-  font-size: 1.25em;
-  color: #676767;
-  margin-bottom: 2em;
 }
 
 section {
@@ -32,6 +38,53 @@ footer {
   text-align: right;
 }
 
+code {
+  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+  padding: 2px 4px;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+pre {
+  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 1.42857143;
+  color: #333;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+header {
+  margin: 0 0 4em 0;
+  padding: 3em 0;
+  text-align: center;
+  background-color: #343534;
+  color: #FFFFFF;
+}
+
+footer {
+}
+
+header h1 {
+  font-size: 3em;
+}
+
+header h2 {
+  font-weight: 300;
+}
+
+section {
+  margin-bottom: 3em;
+}
+
 .example-bg {
   width: 100%;
   font-size: 0.85em;
@@ -39,6 +92,11 @@ footer {
   margin-bottom: 1.5em;
   padding: 1em;
   color: #FFFFFF;
+}
+
+.example-bg code {
+  margin-top: 0.25em;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .example-fg {

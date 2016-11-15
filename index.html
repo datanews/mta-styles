@@ -7,33 +7,46 @@
     <meta name="description" content="The colors of the MTA in a easy to include CSS/SASS/LESS/JSON library.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,400,700|Open+Sans:400,700">
     <link rel="stylesheet" href="examples/normalize.css">
     <link rel="stylesheet" href="example/example.css">
 
     <link rel="stylesheet" href="dist/mta-styles.css">
   </head>
   <body>
-    <div class="page-container">
-      <header>
-        <h1>MTA Styles</h1>
-        <h2>The colors of the MTA in a easy to include CSS/SASS/LESS/JSON library.</h2>
-      </header>
 
+    <header>
+      <div class="page-container">
+        <h1>MTA Styles</h1>
+        <h2>The colors of the MTA in a easy to include CSS, SASS, LESS, JSON library.</h2>
+      </div>
+    </header>
+
+    <div class="page-container">
       <section>
+        <p>Styles provided directly from the <a href="http://web.mta.info/developers/resources/line_colors.htm" target="_blank" rel="noopener">MTA</a>.  MTA Styles was created by the <a href="http://datanews.tumblr.com/" target="_blank" rel="noopener">WNYC DataNews team</a>.  See <a href="https://github.com/datanews/mta-styles" target="_blank" rel="noopener">Github</a> for code and more details.</p>
+
         <h1>Include</h1>
 
-        <p>You can easily install MTA Styles with <code>bower install mta-styles</code> or <code>npm install mta-styles</code>.</p>
+        <p>You can easily install MTA Styles with a package manager on the command line.</p>
 
-        <p>There is also LESS and SASS versions with relevant variables for each line.</p>
+        <pre>
+  npm install mta-styles
+  bower install mta-styles</pre>
 
-        <p>Or just use the regular <code>mta-styles.css</code> CSS file.</p>
+        <p>Or include directly with this CDN:</p>
+
+        <pre>
+  &lt;link rel="stylesheet" href="//cdn.rawgit.com/datanews/mta-styles/0.0.2/dist/mta-styles.css"&gt;</pre>
       </section>
 
       <section>
         <h1>Symbols</h1>
 
-        <p>It's easy to put a MTA line symbol in your markup, just use some markup like <code>&lt;i class="mta mta-symbol subway-n"&gt;&lt;i&gt;</code> suffix.  Some examples:</p>
+        <p>It's easy to put a MTA line symbol in your markup, specifically for the subway, just use some markup like the following.</p>
+
+        <pre>
+  &lt;i class="mta mta-symbol subway-n"&gt;&lt;i&gt;</pre>
 
         <div class="example-symbols">
           <i class="mta mta-symbol subway-a"></i>
@@ -70,15 +83,23 @@
         </div>
 
         <p>The symbols will adjust to the font-size they are placed in, but you can also use classes to make the symbols small, medium, and large:</p>
+
         <div>
-           <code>mta-small</code> <i class="mta mta-symbol subway-q mta-small"></i> <i class="mta mta-symbol subway-5 mta-small"></i> <code>mta-med</code> <i class="mta mta-symbol subway-q mta-med"></i> <i class="mta mta-symbol subway-5 mta-med"></i> <code>mta-large</code> <i class="mta mta-symbol subway-q mta-large"></i> <i class="mta mta-symbol subway-5 mta-large"></i>
+          <code>mta-small</code>
+          <i class="mta mta-symbol subway-q mta-small"></i> <i class="mta mta-symbol subway-5 mta-small"></i> <br><br>
+
+          <code>mta-med</code>
+          <i class="mta mta-symbol subway-q mta-med"></i> <i class="mta mta-symbol subway-5 mta-med"></i> <br><br>
+
+          <code>mta-large</code>
+          <i class="mta mta-symbol subway-q mta-large"></i> <i class="mta mta-symbol subway-5 mta-large"></i>
         </div>
       </section>
 
       <section>
         <h1>Backgrounds</h1>
 
-        <p>MTA Styles provides all the colors as background with CSS selectors like <code>.mta .mta-subway-a</code>.  Some examples:</p>
+        <p>MTA Styles provides all the colors as background with classes like <code>mta subway-a</code>.  Some examples:</p>
 
         <div class="mta subway-a example-bg">
           Subway A line<br>
@@ -101,7 +122,7 @@
 
         <div class="mta subway-j-fg example-fg">Subway J line<br><code>mta subway-j-fg</code></div>
         <div class="mta lirr-montauk-fg example-fg">Long Island Rail Road Montauk branch<br><code>mta lirr-montauk-fg</code></div>
-        <div class="mta metro-north-harlem-fg example-fg">Metro-North Railroad Harlem line<br><code>metro-north-harlem-fg</code></div>
+        <div class="mta metro-north-harlem-fg example-fg">Metro-North Railroad Harlem line<br><code>mta metro-north-harlem-fg</code></div>
       </section>
 
       <section>
@@ -110,9 +131,7 @@
         <p>MTA Styles also provides a JSON file for use in applications or data analysis.</p>
       </section>
 
-      <footer>
-        Made by the <a href="http://datanews.tumblr.com/" target="_blank">WNYC DataNews team</a>.
-      </footer>
+      <footer></footer>
     </div>
   </body>
 </html>

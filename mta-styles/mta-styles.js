@@ -146,7 +146,7 @@ function buildStyles(colors, type) {
         symbols.push("  &." + l + ":after { content: \"" + c.lines[li].toUpperCase() + "\"; }");
 
         // There are some exceptions that use a different foreground color
-        if (["n", "q", "r"].indexOf(c.lines[li]) !== -1) {
+        if (["n", "q", "r", "w"].indexOf(c.lines[li]) !== -1) {
           symbols.push("  &." + l + " { color: #000000; }");
         }
       }
@@ -187,6 +187,13 @@ function mtaParse(done) {
       // Get lines and mode
       mode = translateMode(i["MTA Mode"]);
       lines = translateLines(i["Line/Branch"], translateMode(i["MTA Mode"])[0]);
+
+      // Temporarily add "W" train to the N/Q/R definition since it's not yet
+      // part of MTA's colors.csv
+      if ((lines[0].indexOf("r") !== -1) && (lines[0].indexOf("w") === -1)) {
+        lines[0].push("w");
+        lines[1] = lines[1]+",W";
+      }
 
       // Create new row
       output.push({

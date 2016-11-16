@@ -3,7 +3,7 @@
  * The colors of the MTA in a easy to include library.
  * https://github.com/datanews/mta-styles
  * 
- * Version: 0.0.1
+ * Version: 0.0.2
  */
 /* Variables: mta-mode-line */
 /* General styling */
@@ -13,233 +13,239 @@
 }
 /* Background colors: mta mta-mode-line */
 .mta.subway-a {
-  background-color: #0039A6;
+  background-color: #0039A6 !important;
 }
 .mta.subway-c {
-  background-color: #0039A6;
+  background-color: #0039A6 !important;
 }
 .mta.subway-e {
-  background-color: #0039A6;
+  background-color: #0039A6 !important;
 }
 .mta.subway-b {
-  background-color: #FF6319;
+  background-color: #FF6319 !important;
 }
 .mta.subway-d {
-  background-color: #FF6319;
+  background-color: #FF6319 !important;
 }
 .mta.subway-f {
-  background-color: #FF6319;
+  background-color: #FF6319 !important;
 }
 .mta.subway-m {
-  background-color: #FF6319;
+  background-color: #FF6319 !important;
 }
 .mta.subway-g {
-  background-color: #6CBE45;
+  background-color: #6CBE45 !important;
 }
 .mta.subway-j {
-  background-color: #996633;
+  background-color: #996633 !important;
 }
 .mta.subway-z {
-  background-color: #996633;
+  background-color: #996633 !important;
 }
 .mta.subway-l {
-  background-color: #A7A9AC;
+  background-color: #A7A9AC !important;
 }
 .mta.subway-n {
-  background-color: #FCCC0A;
+  background-color: #FCCC0A !important;
 }
 .mta.subway-q {
-  background-color: #FCCC0A;
+  background-color: #FCCC0A !important;
 }
 .mta.subway-r {
-  background-color: #FCCC0A;
+  background-color: #FCCC0A !important;
+}
+.mta.subway-w {
+  background-color: #FCCC0A !important;
 }
 .mta.subway-s {
-  background-color: #808183;
+  background-color: #808183 !important;
 }
 .mta.subway-1 {
-  background-color: #EE352E;
+  background-color: #EE352E !important;
 }
 .mta.subway-2 {
-  background-color: #EE352E;
+  background-color: #EE352E !important;
 }
 .mta.subway-3 {
-  background-color: #EE352E;
+  background-color: #EE352E !important;
 }
 .mta.subway-4 {
-  background-color: #00933C;
+  background-color: #00933C !important;
 }
 .mta.subway-5 {
-  background-color: #00933C;
+  background-color: #00933C !important;
 }
 .mta.subway-6 {
-  background-color: #00933C;
+  background-color: #00933C !important;
 }
 .mta.subway-7 {
-  background-color: #B933AD;
+  background-color: #B933AD !important;
 }
 .mta.lirr-babylon {
-  background-color: #00985F;
+  background-color: #00985F !important;
 }
 .mta.lirr-city-terminal {
-  background-color: #4D5357;
+  background-color: #4D5357 !important;
 }
 .mta.lirr-far-rockaway {
-  background-color: #6E3219;
+  background-color: #6E3219 !important;
 }
 .mta.lirr-hempstead {
-  background-color: #CE8E00;
+  background-color: #CE8E00 !important;
 }
 .mta.lirr-long-beach {
-  background-color: #FF6319;
+  background-color: #FF6319 !important;
 }
 .mta.lirr-montauk {
-  background-color: #006983;
+  background-color: #006983 !important;
 }
 .mta.lirr-oyster-bay {
-  background-color: #00AF3F;
+  background-color: #00AF3F !important;
 }
 .mta.lirr-port-jefferson {
-  background-color: #0039A6;
+  background-color: #0039A6 !important;
 }
 .mta.lirr-port-washington {
-  background-color: #C60C30;
+  background-color: #C60C30 !important;
 }
 .mta.lirr-ronkonkoma {
-  background-color: #A626AA;
+  background-color: #A626AA !important;
 }
 .mta.lirr-west-hempstead {
-  background-color: #00A1DE;
+  background-color: #00A1DE !important;
 }
 .mta.metro-north-harlem {
-  background-color: #0039A6;
+  background-color: #0039A6 !important;
 }
 .mta.metro-north-hudson {
-  background-color: #009B3A;
+  background-color: #009B3A !important;
 }
 .mta.metro-north-new-haven {
-  background-color: #E00034;
+  background-color: #E00034 !important;
 }
 .mta.metro-north-pascack-valley {
-  background-color: #923D97;
+  background-color: #923D97 !important;
 }
 .mta.metro-north-port-jervis {
-  background-color: #FF7900;
+  background-color: #FF7900 !important;
 }
 /* Foreground colors: mta mta-mode-line-fg */
 .mta.subway-a-fg {
-  color: #0039A6;
+  color: #0039A6 !important;
 }
 .mta.subway-c-fg {
-  color: #0039A6;
+  color: #0039A6 !important;
 }
 .mta.subway-e-fg {
-  color: #0039A6;
+  color: #0039A6 !important;
 }
 .mta.subway-b-fg {
-  color: #FF6319;
+  color: #FF6319 !important;
 }
 .mta.subway-d-fg {
-  color: #FF6319;
+  color: #FF6319 !important;
 }
 .mta.subway-f-fg {
-  color: #FF6319;
+  color: #FF6319 !important;
 }
 .mta.subway-m-fg {
-  color: #FF6319;
+  color: #FF6319 !important;
 }
 .mta.subway-g-fg {
-  color: #6CBE45;
+  color: #6CBE45 !important;
 }
 .mta.subway-j-fg {
-  color: #996633;
+  color: #996633 !important;
 }
 .mta.subway-z-fg {
-  color: #996633;
+  color: #996633 !important;
 }
 .mta.subway-l-fg {
-  color: #A7A9AC;
+  color: #A7A9AC !important;
 }
 .mta.subway-n-fg {
-  color: #FCCC0A;
+  color: #FCCC0A !important;
 }
 .mta.subway-q-fg {
-  color: #FCCC0A;
+  color: #FCCC0A !important;
 }
 .mta.subway-r-fg {
-  color: #FCCC0A;
+  color: #FCCC0A !important;
+}
+.mta.subway-w-fg {
+  color: #FCCC0A !important;
 }
 .mta.subway-s-fg {
-  color: #808183;
+  color: #808183 !important;
 }
 .mta.subway-1-fg {
-  color: #EE352E;
+  color: #EE352E !important;
 }
 .mta.subway-2-fg {
-  color: #EE352E;
+  color: #EE352E !important;
 }
 .mta.subway-3-fg {
-  color: #EE352E;
+  color: #EE352E !important;
 }
 .mta.subway-4-fg {
-  color: #00933C;
+  color: #00933C !important;
 }
 .mta.subway-5-fg {
-  color: #00933C;
+  color: #00933C !important;
 }
 .mta.subway-6-fg {
-  color: #00933C;
+  color: #00933C !important;
 }
 .mta.subway-7-fg {
-  color: #B933AD;
+  color: #B933AD !important;
 }
 .mta.lirr-babylon-fg {
-  color: #00985F;
+  color: #00985F !important;
 }
 .mta.lirr-city-terminal-fg {
-  color: #4D5357;
+  color: #4D5357 !important;
 }
 .mta.lirr-far-rockaway-fg {
-  color: #6E3219;
+  color: #6E3219 !important;
 }
 .mta.lirr-hempstead-fg {
-  color: #CE8E00;
+  color: #CE8E00 !important;
 }
 .mta.lirr-long-beach-fg {
-  color: #FF6319;
+  color: #FF6319 !important;
 }
 .mta.lirr-montauk-fg {
-  color: #006983;
+  color: #006983 !important;
 }
 .mta.lirr-oyster-bay-fg {
-  color: #00AF3F;
+  color: #00AF3F !important;
 }
 .mta.lirr-port-jefferson-fg {
-  color: #0039A6;
+  color: #0039A6 !important;
 }
 .mta.lirr-port-washington-fg {
-  color: #C60C30;
+  color: #C60C30 !important;
 }
 .mta.lirr-ronkonkoma-fg {
-  color: #A626AA;
+  color: #A626AA !important;
 }
 .mta.lirr-west-hempstead-fg {
-  color: #00A1DE;
+  color: #00A1DE !important;
 }
 .mta.metro-north-harlem-fg {
-  color: #0039A6;
+  color: #0039A6 !important;
 }
 .mta.metro-north-hudson-fg {
-  color: #009B3A;
+  color: #009B3A !important;
 }
 .mta.metro-north-new-haven-fg {
-  color: #E00034;
+  color: #E00034 !important;
 }
 .mta.metro-north-pascack-valley-fg {
-  color: #923D97;
+  color: #923D97 !important;
 }
 .mta.metro-north-port-jervis-fg {
-  color: #FF7900;
+  color: #FF7900 !important;
 }
 /* Symbols: mta mta-symbol mta-mode-line-fg */
 .mta.mta-symbol {
@@ -325,6 +331,12 @@
   content: "R";
 }
 .mta.mta-symbol.subway-r {
+  color: #000000;
+}
+.mta.mta-symbol.subway-w:after {
+  content: "W";
+}
+.mta.mta-symbol.subway-w {
   color: #000000;
 }
 .mta.mta-symbol.subway-s:after {

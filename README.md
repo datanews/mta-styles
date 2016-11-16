@@ -12,7 +12,7 @@ Easily include with a package manager:
 Or, you could use this in your HTML directly (though note that this CDN is not guaranteed to be up).
 
 ```html
-<link rel="stylesheet" href="//cdn.rawgit.com/datanews/mta-styles/0.0.2/dist/mta-styles.css">
+<link rel="stylesheet" href="//cdn.rawgit.com/datanews/mta-styles/0.0.3/dist/mta-styles.css">
 ```
 
 ## Use
@@ -71,7 +71,8 @@ The JSON file describing what lines are what colors can useful for styling in di
 
 ## Publish
 
-1. Update `package.json`, `bower.json`, `README.md` with the new version.
+1. Update `package.json`, `bower.json`, `README.md`, `index.html` with the new version.
+1. Commit changes.
 1. `git tag X.X.X`
 1. `git push origin master --tags`
 1. `npm publish`

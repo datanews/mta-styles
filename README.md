@@ -12,7 +12,7 @@ Easily include with a package manager:
 Or, you could use this in your HTML directly (though note that this CDN is not guaranteed to be up).
 
 ```html
-<link rel="stylesheet" href="//cdn.rawgit.com/datanews/mta-styles/0.0.4/dist/mta-styles.css">
+<link rel="stylesheet" href="//cdn.rawgit.com/datanews/mta-styles/0.0.5/dist/mta-styles.css">
 ```
 
 ## Use

@@ -1,8 +1,8 @@
 {
   "name": "mta-styles",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "The colors of the MTA in a easy to include library.",
-  "main": "mta-styles/mta-styles.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node mta-styles/build.js"

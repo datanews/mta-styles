@@ -288,6 +288,6 @@ function buildHeader() {
 module.exports = {
   mtaParse: mtaParse,
   build: build,
-  sourePath: path.join(__dirname, 'mta-styles.js'),
+  sourcePath: path.join(__dirname, 'mta-styles.js'),
   outputPaths: outputPaths
 };

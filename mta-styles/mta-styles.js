@@ -175,6 +175,27 @@ function mtaParse(done) {
     input = body.split("\n").slice(2, -1);
     input = csv.parse(input.join("\n"));
 
+    // Manual alterations
+    input = input.map(function(l) {
+      // Temporarily add "W" train to the N/Q/R definition since it's not yet
+      // part of MTA's colors.csv
+      if (l['Line/Branch'] === 'N/Q/R') {
+        l['Line/Branch'] = 'N/Q/R/W';
+      }
+
+      return l;
+    });
+
+    // Manual additions
+    // Manually add T as its not yet finished.  The color is not official.
+    input.push({
+      'MTA Mode': 'NYCT Subway',
+      'Line/Branch': 'T',
+      'RGB Hex': '1E9DBF',
+      'Pantone CVC': '',
+      CMYK: ''
+    });
+
     // Go through
     input.forEach(function(i) {
       var lines, mode;
@@ -188,13 +209,6 @@ function mtaParse(done) {
       mode = translateMode(i["MTA Mode"]);
       lines = translateLines(i["Line/Branch"], translateMode(i["MTA Mode"])[0]);
 
-      // Temporarily add "W" train to the N/Q/R definition since it's not yet
-      // part of MTA's colors.csv
-      if ((lines[0].indexOf("r") !== -1) && (lines[0].indexOf("w") === -1)) {
-        lines[0].push("w");
-        lines[1] = lines[1]+",W";
-      }
-
       // Create new row
       output.push({
         mode: mode[0],
@@ -206,6 +220,13 @@ function mtaParse(done) {
         }),
         hex: "#" + translateHex(i["RGB Hex"])
       });
+    });
+
+    // Sort
+    output = output.sort(function(a, b) {
+      var ai = a.mode + a.lines;
+      var bi = b.mode + b.lines;
+      return ai.localeCompare(bi);
     });
 
     // Return output

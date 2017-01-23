@@ -66,7 +66,7 @@ The JSON file describing what lines are what colors can useful for styling in di
 1. Get code: `git clone https://github.com/datanews/mta-styles.git && cd mta-styles`
 1. Install dependencies: `npm install`
 
-* The main logic that compiles the output files is in: `mta-styles/mta-styles.js`
+* The main logic that takes the data from the MTA and compiles the output files is in: `mta-styles/mta-styles.js`
 * To actually compile the output files, run: `npm run build`
 
 ## Publish

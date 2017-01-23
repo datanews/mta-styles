@@ -12,75 +12,6 @@
   font-weight: bold;
 }
 /* Background colors: mta mta-mode-line */
-.mta.subway-a {
-  background-color: #0039A6 !important;
-}
-.mta.subway-c {
-  background-color: #0039A6 !important;
-}
-.mta.subway-e {
-  background-color: #0039A6 !important;
-}
-.mta.subway-b {
-  background-color: #FF6319 !important;
-}
-.mta.subway-d {
-  background-color: #FF6319 !important;
-}
-.mta.subway-f {
-  background-color: #FF6319 !important;
-}
-.mta.subway-m {
-  background-color: #FF6319 !important;
-}
-.mta.subway-g {
-  background-color: #6CBE45 !important;
-}
-.mta.subway-j {
-  background-color: #996633 !important;
-}
-.mta.subway-z {
-  background-color: #996633 !important;
-}
-.mta.subway-l {
-  background-color: #A7A9AC !important;
-}
-.mta.subway-n {
-  background-color: #FCCC0A !important;
-}
-.mta.subway-q {
-  background-color: #FCCC0A !important;
-}
-.mta.subway-r {
-  background-color: #FCCC0A !important;
-}
-.mta.subway-w {
-  background-color: #FCCC0A !important;
-}
-.mta.subway-s {
-  background-color: #808183 !important;
-}
-.mta.subway-1 {
-  background-color: #EE352E !important;
-}
-.mta.subway-2 {
-  background-color: #EE352E !important;
-}
-.mta.subway-3 {
-  background-color: #EE352E !important;
-}
-.mta.subway-4 {
-  background-color: #00933C !important;
-}
-.mta.subway-5 {
-  background-color: #00933C !important;
-}
-.mta.subway-6 {
-  background-color: #00933C !important;
-}
-.mta.subway-7 {
-  background-color: #B933AD !important;
-}
 .mta.lirr-babylon {
   background-color: #00985F !important;
 }
@@ -129,76 +60,79 @@
 .mta.metro-north-port-jervis {
   background-color: #FF7900 !important;
 }
+.mta.subway-1 {
+  background-color: #EE352E !important;
+}
+.mta.subway-2 {
+  background-color: #EE352E !important;
+}
+.mta.subway-3 {
+  background-color: #EE352E !important;
+}
+.mta.subway-4 {
+  background-color: #00933C !important;
+}
+.mta.subway-5 {
+  background-color: #00933C !important;
+}
+.mta.subway-6 {
+  background-color: #00933C !important;
+}
+.mta.subway-7 {
+  background-color: #B933AD !important;
+}
+.mta.subway-a {
+  background-color: #0039A6 !important;
+}
+.mta.subway-c {
+  background-color: #0039A6 !important;
+}
+.mta.subway-e {
+  background-color: #0039A6 !important;
+}
+.mta.subway-b {
+  background-color: #FF6319 !important;
+}
+.mta.subway-d {
+  background-color: #FF6319 !important;
+}
+.mta.subway-f {
+  background-color: #FF6319 !important;
+}
+.mta.subway-m {
+  background-color: #FF6319 !important;
+}
+.mta.subway-g {
+  background-color: #6CBE45 !important;
+}
+.mta.subway-j {
+  background-color: #996633 !important;
+}
+.mta.subway-z {
+  background-color: #996633 !important;
+}
+.mta.subway-l {
+  background-color: #A7A9AC !important;
+}
+.mta.subway-n {
+  background-color: #FCCC0A !important;
+}
+.mta.subway-q {
+  background-color: #FCCC0A !important;
+}
+.mta.subway-r {
+  background-color: #FCCC0A !important;
+}
+.mta.subway-w {
+  background-color: #FCCC0A !important;
+}
+.mta.subway-s {
+  background-color: #808183 !important;
+}
+.mta.subway-t {
+  background-color: #1E9DBF !important;
+}
 /* Foreground colors: mta mta-mode-line-fg */
-.mta.subway-a-fg {
-  color: #0039A6 !important;
-}
-.mta.subway-c-fg {
-  color: #0039A6 !important;
-}
-.mta.subway-e-fg {
-  color: #0039A6 !important;
-}
-.mta.subway-b-fg {
-  color: #FF6319 !important;
-}
-.mta.subway-d-fg {
-  color: #FF6319 !important;
-}
-.mta.subway-f-fg {
-  color: #FF6319 !important;
-}
-.mta.subway-m-fg {
-  color: #FF6319 !important;
-}
-.mta.subway-g-fg {
-  color: #6CBE45 !important;
-}
-.mta.subway-j-fg {
-  color: #996633 !important;
-}
-.mta.subway-z-fg {
-  color: #996633 !important;
-}
-.mta.subway-l-fg {
-  color: #A7A9AC !important;
-}
-.mta.subway-n-fg {
-  color: #FCCC0A !important;
-}
-.mta.subway-q-fg {
-  color: #FCCC0A !important;
-}
-.mta.subway-r-fg {
-  color: #FCCC0A !important;
-}
-.mta.subway-w-fg {
-  color: #FCCC0A !important;
-}
-.mta.subway-s-fg {
-  color: #808183 !important;
-}
-.mta.subway-1-fg {
-  color: #EE352E !important;
-}
-.mta.subway-2-fg {
-  color: #EE352E !important;
-}
-.mta.subway-3-fg {
-  color: #EE352E !important;
-}
-.mta.subway-4-fg {
-  color: #00933C !important;
-}
-.mta.subway-5-fg {
-  color: #00933C !important;
-}
-.mta.subway-6-fg {
-  color: #00933C !important;
-}
-.mta.subway-7-fg {
-  color: #B933AD !important;
-}
 .mta.lirr-babylon-fg {
   color: #00985F !important;
 }
@@ -247,6 +181,78 @@
 .mta.metro-north-port-jervis-fg {
   color: #FF7900 !important;
 }
+.mta.subway-1-fg {
+  color: #EE352E !important;
+}
+.mta.subway-2-fg {
+  color: #EE352E !important;
+}
+.mta.subway-3-fg {
+  color: #EE352E !important;
+}
+.mta.subway-4-fg {
+  color: #00933C !important;
+}
+.mta.subway-5-fg {
+  color: #00933C !important;
+}
+.mta.subway-6-fg {
+  color: #00933C !important;
+}
+.mta.subway-7-fg {
+  color: #B933AD !important;
+}
+.mta.subway-a-fg {
+  color: #0039A6 !important;
+}
+.mta.subway-c-fg {
+  color: #0039A6 !important;
+}
+.mta.subway-e-fg {
+  color: #0039A6 !important;
+}
+.mta.subway-b-fg {
+  color: #FF6319 !important;
+}
+.mta.subway-d-fg {
+  color: #FF6319 !important;
+}
+.mta.subway-f-fg {
+  color: #FF6319 !important;
+}
+.mta.subway-m-fg {
+  color: #FF6319 !important;
+}
+.mta.subway-g-fg {
+  color: #6CBE45 !important;
+}
+.mta.subway-j-fg {
+  color: #996633 !important;
+}
+.mta.subway-z-fg {
+  color: #996633 !important;
+}
+.mta.subway-l-fg {
+  color: #A7A9AC !important;
+}
+.mta.subway-n-fg {
+  color: #FCCC0A !important;
+}
+.mta.subway-q-fg {
+  color: #FCCC0A !important;
+}
+.mta.subway-r-fg {
+  color: #FCCC0A !important;
+}
+.mta.subway-w-fg {
+  color: #FCCC0A !important;
+}
+.mta.subway-s-fg {
+  color: #808183 !important;
+}
+.mta.subway-t-fg {
+  color: #1E9DBF !important;
+}
 /* Symbols: mta mta-symbol mta-mode-line-fg */
 .mta.mta-symbol {
   display: inline-block;
@@ -281,6 +287,27 @@
 }
 .mta.mta-symbol.mta-bottom {
   vertical-align: bottom;
+}
+.mta.mta-symbol.subway-1:after {
+  content: "1";
+}
+.mta.mta-symbol.subway-2:after {
+  content: "2";
+}
+.mta.mta-symbol.subway-3:after {
+  content: "3";
+}
+.mta.mta-symbol.subway-4:after {
+  content: "4";
+}
+.mta.mta-symbol.subway-5:after {
+  content: "5";
+}
+.mta.mta-symbol.subway-6:after {
+  content: "6";
+}
+.mta.mta-symbol.subway-7:after {
+  content: "7";
 }
 .mta.mta-symbol.subway-a:after {
   content: "A";
@@ -342,24 +369,6 @@
 .mta.mta-symbol.subway-s:after {
   content: "S";
 }
-.mta.mta-symbol.subway-1:after {
-  content: "1";
-}
-.mta.mta-symbol.subway-2:after {
-  content: "2";
-}
-.mta.mta-symbol.subway-3:after {
-  content: "3";
-}
-.mta.mta-symbol.subway-4:after {
-  content: "4";
-}
-.mta.mta-symbol.subway-5:after {
-  content: "5";
-}
-.mta.mta-symbol.subway-6:after {
-  content: "6";
-}
-.mta.mta-symbol.subway-7:after {
-  content: "7";
+.mta.mta-symbol.subway-t:after {
+  content: "T";
 }
